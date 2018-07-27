@@ -1,5 +1,5 @@
 body {
-    background: lightblue;
+    background: lightgrey;
 }
 .navbar {
     border: 1px solid black;
@@ -11,6 +11,43 @@ body {
     border: 1px solid white;
     background-color: transparent;
 }
+.back-btn {
+    background:black;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    padding:5px 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 10px;
+}
+.back-btn:hover {
+    background:#fff;
+    color: black;
+}
+.back-btn:before,.back-btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: black;
+    transition:400ms ease all;
+  }
+.back-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+.back-btn:hover:before,.back-btn:hover:after{
+    width:100%;
+    transition:80;
+}
+/*-------*/
 .actors-link {
     background:black;
     color:#fff;
@@ -37,13 +74,13 @@ body {
     background: black;
     transition:400ms ease all;
   }
-  .actors-link:after{
+.actors-link:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
   }
-  .actors-link:hover:before,.actors-link:hover:after{
+.actors-link:hover:before,.actors-link:hover:after{
     width:100%;
     transition:80;
 }
