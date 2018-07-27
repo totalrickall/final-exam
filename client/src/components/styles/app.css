@@ -1,0 +1,228 @@
+body {
+    background: lightblue;
+}
+.navbar {
+    border: 1px solid black;
+}
+.form-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.actors-link {
+    background:black;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    padding:5px 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 10px;
+}
+.actors-link:hover {
+    background:#fff;
+    color: black;
+}
+.actors-link:before,.actors-link:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: black;
+    transition:400ms ease all;
+  }
+  .actors-link:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .actors-link:hover:before,.actors-link:hover:after{
+    width:100%;
+    transition:80;
+}
+.home-container {
+    width: 100%;
+}
+.single-movie-container {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.single-movie-header {
+    text-align: center;
+}
+/*-------------CARDS-------------------*/
+.card {
+    text-align: center;
+}
+.cards-container {
+    width: 80%;
+    height: 600px;
+    overflow: scroll;
+    margin: auto;
+    padding: 10px;
+}
+.card-btn {
+    background:black;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    padding:5px 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 10px;
+}
+.card-btn:hover {
+    background:#fff;
+    color: black;
+}
+.card-btn:before,.card-btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: black;
+    transition:400ms ease all;
+  }
+  .card-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .card-btn:hover:before,.card-btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+/*-------------FORM BUTTONS------------*/
+.form-btn {
+    background:black;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 10px;
+}
+.form-btn:hover{
+    background:#fff;
+    color: black;
+    
+}
+.form-btn:before,.form-btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: black;
+    transition:400ms ease all;
+}
+.form-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.form-btn:hover:before,.form-btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+/*-------------MODAL STYLES------------*/
+.modal-submit-btn {
+    background:black;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 10px;
+}
+.modal-submit-btn:hover{
+    background:#fff;
+    color: black;
+    
+}
+.modal-submit-btn:before,.modal-submit-btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: black;
+    transition:400ms ease all;
+}
+.modal-submit-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.modal-submit-btn:hover:before,.modal-submit-btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+.modal-header {
+    font-family: 'Cinzel', serif;
+}
+.modal-open-btn, .delete-btn {
+    background:rgb(255, 255, 255);
+    color:#fff;
+    color: inherit;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.2em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 10px;
+}
+.modal-open-btn:hover, .delete-btn:hover{
+    background:#fff;
+    color: rgb(45, 58, 45);
+    
+}
+.modal-open-btn:before, .modal-open-btn:after, .delete-btn:before, .delete-btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(45, 58, 45);
+    transition:400ms ease all;
+}
+.modal-open-btn:after, .delete-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.modal-open-btn:hover:before,.modal-open-btn:hover:after, .delete-btn:hover:before,.delete-btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
