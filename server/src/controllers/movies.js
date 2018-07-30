@@ -49,7 +49,7 @@ const movies = {
                 if(err) {
                     reject(err);
                 }
-                resolve(result[0]);
+                resolve();
             });
         })
     }

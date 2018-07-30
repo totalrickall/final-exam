@@ -29,6 +29,7 @@ export default class Actors extends Component {
     render() {
         return (
             <div className="actors-container">
+        
                 <Link className="back-btn" to={`/movie/${this.props.match.params.id}`}>Go Back</Link>
                 <h1>Actors in this movie...</h1>
                 {this.state.actorContainer.map((actor) => {
